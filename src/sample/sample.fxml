@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.Pane?>
@@ -11,8 +12,10 @@
    <children>
       <Pane prefHeight="476.0" prefWidth="455.0">
          <children>
-            <Label fx:id="text" graphicTextGap="9.0" layoutX="62.0" layoutY="79.0" prefHeight="50.0" prefWidth="321.0" text="Labas" />
-            <Button layoutX="54.0" layoutY="121.0" mnemonicParsing="false" onAction="#sayHi" text="Say hi" />
+            <TextField fx:id="TextField1" layoutX="38.0" layoutY="265.0" promptText="iveskite pavarde" />
+            <TextField fx:id="textField" layoutX="38.0" layoutY="205.0" promptText="Iveskite varda" />
+            <Button layoutX="22.0" layoutY="331.0" mnemonicParsing="false" onAction="#sayHi" text="Spausk" />
+            <Label fx:id="text" layoutX="14.0" layoutY="27.0" prefHeight="163.0" prefWidth="346.0" />
          </children></Pane>
    </children>
    <columnConstraints>
